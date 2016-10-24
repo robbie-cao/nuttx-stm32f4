@@ -3,7 +3,7 @@
 	url = https://bitbucket.org/nuttx/nuttx.git
 [submodule "apps"]
 	path = apps
-    url =://bitbucket.org/nuttx/apps.git
+    url = https://bitbucket.org/nuttx/apps.git
 [submodule "tools"]
 	path = tools
 	url = https://bitbucket.org/nuttx/tools.git

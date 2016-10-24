@@ -1,0 +1,12 @@
+[submodule "nuttx"]
+	path = nuttx
+	url = https://bitbucket.org/nuttx/nuttx.git
+[submodule "apps"]
+	path = apps
+    url =://bitbucket.org/nuttx/apps.git
+[submodule "tools"]
+	path = tools
+	url = https://bitbucket.org/nuttx/tools.git
+[submodule "stlink"]
+	path = stlink
+	url = https://github.com/texane/stlink.git

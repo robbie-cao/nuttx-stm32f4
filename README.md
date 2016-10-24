@@ -1,13 +1,13 @@
 # NuttX on STM32F4
 
-> Test on STM32F4 Discovery Board (STM32F407VG)
+> Test with STM32F4 Discovery Board (STM32F407VG) on Linux (Ubuntu).
 
 ## Preparation
 
-- `arm-none-eabi-` toolchain
 - git
 - build-essential flex bison texinfo gettext gperf
 - libusb-1.0.0 libncurses5-dev minicom
+- `arm-none-eabi` toolchain: https://launchpad.net/gcc-arm-embedded
 
 ## Build Steps
 
@@ -66,7 +66,7 @@
    ```
    # chdir to nuttx-stm32f4 root
    cd /path/to/nuttx-stm32f4
-   export PATH=$PATH:`pwd`/stlink
+   export PATH=$PATH:`pwd`/stlink/build/Release (check the exact path for st-flash tool)
    st-flash write nuttx/nuttx.bin 0x8000000 (add sudo if there's permission issue)
    ```
 
